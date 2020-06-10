@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+*{
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+}
+
 .main-container{
     width: 100vw;
     position: relative;
@@ -32,33 +40,87 @@
     line-height: 30vh;
 }
 
-.picture-grid{
-    width: 100vw;
-    height: 50vh;
-    padding-top: 1em;
-}
-
-.grid-box{
-    position: relative;
+.gridbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    background-color: slateblue;
-    margin: auto;
+    text-align: center;
+    margin-top: 2em;
 }
 
-.d-flex{
-    border: 1px solid red;
-    
+.box-1 {
+    width: 50%;   
 }
 
-.p-2{
-    border: 1px solid blue;
+.box-2{
+    width: 50%;   
+}
+.box-3{
+    width: 100%;
+}
+.box-1 img{
+    width: 100%;
+    height: auto;
 }
 
+.box-2 img{
+    width: 100%;
+    height: auto;
+}
 
+.box-3 img{
+    width: 100%;
+    height: auto;
+}
 
+.box-1 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
 
+.box-2 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
 
+.box-3 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
 
+.hotel{
+    padding: 3em;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.hotel-text{
+    font-family: 'Nunito', sans-serif;
+}
+
+.box{
+    width: 30%;
+    text-align: center;
+    height: 100px;
+}
+
+.footer{
+    height: 200px;
+    background: linear-gradient(0deg, rgba(255, 203, 22, 0.93), rgba(255, 203, 22, 0.93)), url(paolo-nicolello-2gOxKj594nM-unsplash.jpg);
+}
 
 
 
