@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+}
+
+.main-container{
+    width: 100vw;
+    position: relative;
+}
+.nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 16px;
+    letter-spacing: 0.032em;
+    color: #000000 !important;
+    margin: 0px 25px;
+}
+
+.breadcrumbz{
+    background: yellowgreen ;
+    height: 30vh !important ;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(221, 220, 199, 0.27), rgba(235, 233, 208, 0.27)), url('../media/facilities.png');
+}
+
+.breadcrumbz p{
+    font-family: 'Rubik', sans-serif !important;
+    text-align: center !important;
+    letter-spacing: 0.002em;
+    color: #000000;
+    display: flex;
+    justify-content:  center;
+    line-height: 30vh;
+}
+
+.gridbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.box-1 , .box-2 {
+    width: 50%;
+    position: relative;  
+    text-align: center; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.2px;
+    color: #FFCB16;
+  }
+
+.box-3{
+    width: 100%;
+}
+.box-1 img{
+    width: 100%;
+    height: auto;
+}
+
+.box-2 img{
+    width: 100%;
+    height: auto;
+}
+
+.box-3 img{
+    width: 100%;
+    height: auto;
+}
+
+.box-1 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
+
+.box-2 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
+
+.box-3 img:hover{
+    opacity: 0.85;
+    cursor: pointer;
+    transition: ease-in .4s;
+}
+
+.hotel{
+    padding: 3em;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.hotel-text{
+    font-family: 'Nunito', sans-serif;
+}
+
+.box{
+    width: 30%;
+    text-align: center;
+    height: auto;
+}
+
+.footer{
+    height: 200px;
+    background: linear-gradient(0deg, rgba(255, 203, 22, 0.93), rgba(255, 203, 22, 0.93)), url(paolo-nicolello-2gOxKj594nM-unsplash.jpg);
+}
+
+
+
+
